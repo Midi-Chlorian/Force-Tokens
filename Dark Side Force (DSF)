@@ -1,4 +1,4 @@
-/* ~ Dark Side Force (DSF) features ~
+/* ~ Dark Side Force ($DSF) features ~
 * 
 * Instant burn on each transaction
 * 2.5% tax (2.5% burn, increasing the scarcity with each transaction)
@@ -481,7 +481,7 @@ contract $FORCE is Context, IERC20, Ownable {
     uint256 private _tBurnTotal;
 
     string private constant _name = 'Dark Side Force';
-    string private constant _symbol = 'DSF';
+    string private constant _symbol = '$DSF';
 
     uint256 private _taxFee = 0;
     uint256 private _burnFee = 0;

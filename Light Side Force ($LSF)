@@ -1,4 +1,4 @@
-/* ~ Light Side Force (LSF) features ~
+/* ~ Light Side Force ($LSF) features ~
 * 
 * Instant burn on each transaction
 * 2.5% tax (2.5% reflected back to followers of the Light Side, hold the LSF and watch you strength grow)
@@ -481,7 +481,7 @@ contract $FORCE is Context, IERC20, Ownable {
     uint256 private _tBurnTotal;
 
     string private constant _name = 'Light Side Force';
-    string private constant _symbol = 'LSF';
+    string private constant _symbol = '$LSF';
 
     uint256 private _taxFee = 0;
     uint256 private _burnFee = 0;

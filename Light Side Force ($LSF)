@@ -2,7 +2,7 @@
 * 
 * Instant burn on each transaction
 * 2.5% tax (2.5% reflected back to followers of the Light Side, hold the LSF and watch you strength grow)
-* Join the Light side today
+* Are you able to navigate the force safely and join the Light Side?
 * 
 * Website - https://midi-chlorians.com/
 * 
@@ -460,7 +460,7 @@ contract Ownable is Context {
     }
 }
 
-contract $FORCE is Context, IERC20, Ownable {
+contract $LSF is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -475,7 +475,7 @@ contract $FORCE is Context, IERC20, Ownable {
 
     uint8 private constant _decimals = 6;
     uint256 private constant MAX = ~uint256(0);
-    uint256 private _tTotal = 1000000000000000000;
+    uint256 private _tTotal = 1000000000000;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
     uint256 private _tBurnTotal;
@@ -485,7 +485,7 @@ contract $FORCE is Context, IERC20, Ownable {
 
     uint256 private _taxFee = 0;
     uint256 private _burnFee = 0;
-    uint public max_tx_size = 1000000000000000000;
+    uint public max_tx_size = 1000000000000;
 
     bool public isPaused = false;
     constructor () public {

@@ -2,7 +2,7 @@
 * 
 * Instant burn on each transaction
 * 2.5% tax (2.5% burn, increasing the scarcity with each transaction)
-* Join the Dark side today
+* Are you strong enough to join the Dark Side?
 * 
 * Website - https://midi-chlorians.com/
 * 
@@ -460,7 +460,7 @@ contract Ownable is Context {
     }
 }
 
-contract $FORCE is Context, IERC20, Ownable {
+contract $DSF is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
